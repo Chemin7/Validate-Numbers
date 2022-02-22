@@ -17,6 +17,8 @@ bool isInt(string num) {
 
     }
 
+
+// grepper validate real number
 bool isReal(string num) {
 
     int value,a(0),period(0);
@@ -49,5 +51,6 @@ bool isReal(string num) {
             and a>0;
 
     }
+    //end grepper
 
 #endif // VALIDATE_H_INCLUDED
