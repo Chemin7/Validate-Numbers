@@ -2,7 +2,8 @@
 #define VALIDATE_H_INCLUDED
 
 #include <string>
-
+using namespace std;
+//grepper validate int number c++
 bool isInt(string num) {
 
     int value,a(0);
@@ -16,7 +17,7 @@ bool isInt(string num) {
     return a == num.length() && num.length() != 0;
 
     }
-
+//end grepper
 
 //grepper validate real number c++
 bool isReal(string num) {
@@ -51,6 +52,6 @@ bool isReal(string num) {
             and a>0;
 
     }
-    //end grepper
+ //end grepper
 
 #endif // VALIDATE_H_INCLUDED
