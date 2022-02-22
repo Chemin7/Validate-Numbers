@@ -18,7 +18,7 @@ bool isInt(string num) {
     }
 
 
-// grepper validate real number
+//grepper validate real number c++
 bool isReal(string num) {
 
     int value,a(0),period(0);
